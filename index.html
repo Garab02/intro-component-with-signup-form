@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <link rel="stylesheet" href="index.css">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<section class="flex-container">
+  <div class="flex-item1">
+    <h1>Learn to code by watching others</h1>
+
+  <p style="font-size:medium">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+    but understanding how developers think is invaluable.</p>
+  </div>
+  
+<div class="flex-right">
+  <div class="flex-item2">
+    <h5>Try it free 7 days then $20/mo. thereafter</h5>
+  </div>
+
+  <div class="flex-item3">
+
+    <form action="/" class="form" id="form" method="GET">
+      <div>
+        <input type="text" id="firstname" name="firstname" placeholder="First Name">
+        <span id="firstnameerror" class="error"></span>
+      </div>
+      <div>
+        <input type="text" id="lastname" name="lastname" placeholder="Last Name">
+        <span id="lastnameerror" class="error"></span>
+      </div>
+      <div>
+        <input type="text" id="email" name="email" placeholder="Email">
+        <span id="emailerror" class="error"></span>
+      </div>
+      <div>
+        <input type="text" id="password" name="password" placeholder="Password">
+        <span id="passworderror" class="error"></span>
+      </div>
+      
+      
+      <button type="submit" class="btn btn-primary">CLAIM YOUR FREE TRAIL</button>
+      <p style="color:grey; font-size:small">By clicking the button, you are agreeing to our Terms and Services</p>
+    </form>
+
+
+  </div>
+</div>
+  
+</section>
+  
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Garab</a>.
+    </p>
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>
